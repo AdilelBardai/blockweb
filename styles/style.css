@@ -16,14 +16,14 @@ body {
   background-color: #fff;
 }
 
-.top-section {
+section:nth-child(1) {
   background-color: black;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 
-.top-section a {
+section:nth-child(1) a {
   color: white;
   text-align: center;
   text-decoration: none;
@@ -36,13 +36,12 @@ body {
   margin-right: 60px;
 }
 
-.top-section a:hover {
+section:nth-child(1) a:hover {
   color: gray;
 }
 
 nav {
   overflow: hidden;
-  margin-left: 50px;
 }
 
 nav a {
@@ -53,6 +52,10 @@ nav a {
   text-decoration: none;
   font-size: 14px;
   font-family: 'proxima-nova', sans-serif;
+}
+
+li {
+  display: inline;
 }
 
 nav a:hover {
@@ -100,14 +103,15 @@ form button {
   width: 20px;
 }
 
-#sub-nav {
+nav:nth-child(3) {
   margin-top: 20px;
 }
 
-.container {
+div:nth-child(1) {
   width: 100%;
   height: 400px;
   background-color: black;
+  position: relative;
 }
 
 #top-banner {
@@ -117,11 +121,7 @@ form button {
   opacity: 0.8;
 }
 
-main {
-  position: relative;
-}
-
-#new-balance-txt {
+span p:nth-child(1) {
   position: absolute;
   top: 42%;
   left: 50%;
@@ -131,7 +131,7 @@ main {
   text-transform: uppercase;
 }
 
-main h1 {
+span h1 {
   position: absolute;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
@@ -143,7 +143,7 @@ main h1 {
   color: white;
 }
 
-#txt-under-h1 {
+span p:nth-child(3) {
   position: absolute;
   text-decoration: none;
   text-align: center;
@@ -177,7 +177,7 @@ main h1 {
   transition: .3s ease;
 }
 
-section {
+section:nth-child(2) {
   background-color: #f1e6d9; 
   width: 100%; 
   padding: 5px;
@@ -186,30 +186,149 @@ section {
   color: black;
 }
 
+section:nth-child(2) p {
+  display: inline;
+}
+
 section a {
 color: black;
 }
 
-section a:hover {
+section:nth-child(2) a:hover {
   color: grey;
 }
 
-.trends-container {
-  width: 80%;
+div:nth-child(3) {
+  display: flex;
+  width: 81%;
   position: relative;
   left: 5%;
   margin-top: 60px;
   font-size: 2rem;
 }
 
-.trends-container h2 {
+div:nth-child(3) h2 {
   font-family: 'Times New Roman', Times, serif;
   color: black;
   font-weight: 400;
 }
 
+div:nth-child(3) a {
+  position: absolute; 
+  font-size: 12px;
+  margin-top: 40px;
+  left: 100%;
+  width: 115px;
+  color: black;
+  font-weight: bold;
+}
 
-/* .topnav a.active {
-  background-color: #04AA6D;
+div:nth-child(3) a:hover {
+  color: gray;
+}
+
+section:nth-child(4) {
+  position: absolute;
+  left: 5%;
+}
+
+section:nth-child(4) img {
+  /* position: relative; */
+  width: 398px;
+  padding: 5px;
+  /* filter: brightness(80%); */
+}
+
+section:nth-child(4) p {
+  position: absolute;
+}
+
+section:nth-child(4) p:nth-child(1) {
+  top: 77%;
+  left: 3%;
   color: white;
-} */
+  font-size: 29px;
+  width: 20%;
+}
+
+section:nth-child(4) p:nth-child(3) {
+  top: 85%;
+  left: 36%;
+  color: white;
+  font-size: 29px;
+}
+
+section:nth-child(4) p:nth-child(5) {
+  top: 85%;
+  left: 69%;
+  color: white;
+  font-size: 29px;
+}
+
+section:nth-child(5) {
+  /* display: flex; */
+  width: 100%;
+  position: relative;
+  margin-top: 50%;
+  font-size: 1.7rem;
+  background-color: #FAF7F3;
+  /* padding-top: 100px; */
+}
+
+section:nth-child(5) h2 {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: 400;
+  left: 5%;
+  width: 20.5%;
+  line-height: 50px;
+  padding-top: 10%;
+}
+
+section:nth-child(5) p {
+  font-size: 12px;
+  position: relative;
+  color: #635f5c;
+  left: 5%;
+  margin-top: 1.5%;
+  width: 19%;
+}
+
+section:nth-child(5) a {
+  font-size: 12px;
+  position: relative;
+  color: black;
+  left: 5%;
+  margin-top: 13%;
+  font-weight: bold;
+}
+
+section:nth-child(5) div {
+  border: 1px solid black;
+  width: 250px;
+  /* display: inline-block; */
+  margin-left: 30%;
+  margin-top: -20%;
+}
+
+section:nth-child(5) div p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+section:nth-child(5) div:nth-child(1) {
+  /* border: 1px solid black; */
+  width: 250px;
+  /* display: inline-block; */
+  margin-left: 50%;
+  margin-top: -20%;
+}
+
+
+section:nth-child(5) div b{
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+
