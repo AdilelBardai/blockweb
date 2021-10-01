@@ -52,6 +52,12 @@
     text-decoration: none;
     font-size: 14px;
     font-family: 'proxima-nova', sans-serif;
+    outline: none;
+  }
+
+  nav a:focus {
+    background-color: rgb(126, 129, 126);
+    color: white;
   }
 
   nav:nth-child(3) ul li:nth-child(2) a {
