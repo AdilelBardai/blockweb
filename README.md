@@ -39,11 +39,11 @@ De bijenkorf: https://www.debijenkorf.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 home pagina
-<img src="images/homepage.png" width="375px" alt="homepage">
+<img src="images/readme/homepage.png" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/herenkleding.png" width="375px" alt="herenkleding">
+Heren kleding 
+<img src="images/readme/herenkleding.png" width="375px" alt="herenkleding">
  
 </details>
 
@@ -56,14 +56,14 @@ hier de naam van de pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### Content plaatsen: 
+content geplaatst zonder styling
+<img src="images/readme/content-plaatsen.png" width="375px" alt="content-plaatsen">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### Knoppen plaatsen: 
+knoppen/begin van de content geplaatst op de pagina zonder styling
+<img src="images/readme/plaatsing-knoppen" width="375px" alt="knoppen-plaatsen">
 
 </details>
 
@@ -77,30 +77,13 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het maken van van de content en knoppen ging goed. Ik kwam niet echt tegen dingen aan waardoor ik moeite had.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+### Extra content toevoegen: 
+hier heb ik wat meer content op de pagina toegevoegd
+<img src="images/readme/meer-content.png" width="375px" alt="meer-content">
 
 </details>
-
-
 
 
 
@@ -110,30 +93,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Hier ben ik begonnen met het stylen van de eerste gedeelte van de content
 
+### Eerste gedeelte content stylen: 
+hier heb ik wat meer content op de pagina toegevoegd
+<img src="images/readme/eerstegedeelte-styling.png" width="375px" alt="eertsegedeelte-styling">
 
-### Agenda voor meeting
-samen met je groepje opstellen
+### Eerste gedeelte content stylen: 
+in het begin had ik een klein beetje moeite om alles te positioneren zonder classes, maar uiteinlijk ik het eerste gedeelte van de code in verschillende tags gestopt. Hierdoor werd het een stuk makkelijker.
+<img src="images/readme/eerstestyling-front-code.png" width="375px" alt="eerstestyling-front-code">
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
-
-
 
 
 
@@ -143,35 +114,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
+Geen rare bevindingen. 
+Het is mogelijk om door de website heen te tabben en de screen reader werkt prima.
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Als een gebruiker op de pagina komt is het mogelijk om op tab te klikken op de toetsenbord om zo door de gehele website te navigeren.
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -180,31 +128,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Doordat ik ziek ben geweest loop ik achter, daar baal ik ernorm van. Toch heb ik de pagina een beetje kunnen stylen
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+### Pagina bijna af: 
+de pagina is bijna af (80%). De elementen zijn gestyled zoals ze moeten zijn
+<img src="images/readme/pagina-bijna-af.png" width="375px" alt="pagina-bijna-af>
 
 </details>
-
-
-
 
 
 ## Eindgesprek (week 5)
@@ -213,11 +143,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Tijdens de eindsprint ben ik ziek geweest, waardoor ik niet veel heb kunnen werken. Wel heb ik wat meeer content kunnen toevoegen en 1 van de 2 pagina's volledig responsive kunnen maken. Daarnaast is het opschonen van m'n code nog niet gedaan. Doordat ik ziek ben geweest heb ik de belangrijkste delen in mijn ogen niet kunnen doen.
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/readme/homepagina.png" width="375px" alt="home-page>
+
+<img src="images/readme/kleding-pagina.png" width="375px" alt="kleding-page>
+
 
 </details>
 
