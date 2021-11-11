@@ -22,11 +22,8 @@ Adil el Bardai
 rood
 
 #### Je focus:
-responsive 
+Voorheen was het "responsive" maar ik heb voor de herkansing toch gekozen voor "surface". 
 </details>
-
-
-
 
 
 ## Je website
@@ -58,11 +55,12 @@ Heren kleding
 
 
 ### Content plaatsen: 
-content geplaatst zonder styling
+Ik heb wat content op de website geplaatst, maar zonder styling. Eerst alle elementen neergezet die ik nodig
+had en later beginnen aan de styling, zo is dit wat makkelijker werken.
 <img src="images/readme/content-plaatsen.png" width="375px" alt="content-plaatsen">
 
 ### Knoppen plaatsen: 
-knoppen/begin van de content geplaatst op de pagina zonder styling
+Naast het plaatsen van de content heb ik knoppen toegevoegd en geprobeerd te positioneren.
 <img src="images/readme/plaatsing-knoppen" width="375px" alt="knoppen-plaatsen">
 
 </details>
@@ -80,7 +78,8 @@ knoppen/begin van de content geplaatst op de pagina zonder styling
 Het maken van van de content en knoppen ging goed. Ik kwam niet echt tegen dingen aan waardoor ik moeite had.
 
 ### Extra content toevoegen: 
-hier heb ik wat meer content op de pagina toegevoegd
+Ik heb iets meer content op de pagina gevoegd dan dat ik al had. Doordat de website van de bijenkorf veel
+content bevat, doe ik dit allemaal in delen.
 <img src="images/readme/meer-content.png" width="375px" alt="meer-content">
 
 </details>
@@ -96,7 +95,7 @@ hier heb ik wat meer content op de pagina toegevoegd
 Hier ben ik begonnen met het stylen van de eerste gedeelte van de content
 
 ### Eerste gedeelte content stylen: 
-hier heb ik wat meer content op de pagina toegevoegd
+Hier heb ik wat meer content op de pagina toegevoegd
 <img src="images/readme/eerstegedeelte-styling.png" width="375px" alt="eertsegedeelte-styling">
 
 ### Eerste gedeelte content stylen: 
@@ -114,11 +113,32 @@ in het begin had ik een klein beetje moeite om alles te positioneren zonder clas
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Geen rare bevindingen. 
-Het is mogelijk om door de website heen te tabben en de screen reader werkt prima.
+Lijst met bevindingen tijdens de test:
+-Navigeert/tabt door de website zonder problemen
+-Alle buttons en a links zijn klikbaar
+-De alt tags van images komen duidelijk naar voren
+-De headings zijn leesbaar tijdens de test
 #### Titel eerste bevinding
+Tabben
+
 Als een gebruiker op de pagina komt is het mogelijk om op tab te klikken op de toetsenbord om zo door de gehele website te navigeren.
 
+#### Titel tweede bevinding
+Buttons en a links
+
+De buttons/a links op de pagina zijn meteen klikbaar voor de gebruiker. Zo is het makkelijker om van de ene 
+naar de andere pagina te navigeren.
+
+#### Titel derde bevinding
+Alt tags
+
+Aan de hand van een alt tag op een image kan de gebruiker herkennen wat voor een afbeelding het is.
+
+#### Titel vierde bevinding
+Headings
+
+Hierbij komt volgorde ter sprake, doordat alle headings op juiste volgorde staan kan de gebruiker herkennen
+hoe de website in elkaar zit.
 </details>
 
 
@@ -145,15 +165,41 @@ de pagina is bijna af (80%). De elementen zijn gestyled zoals ze moeten zijn
 ### Stand van zaken
 Tijdens de eindsprint ben ik ziek geweest, waardoor ik niet veel heb kunnen werken. Wel heb ik wat meeer content kunnen toevoegen en 1 van de 2 pagina's volledig responsive kunnen maken. Daarnaast is het opschonen van m'n code nog niet gedaan. Doordat ik ziek ben geweest heb ik de belangrijkste delen in mijn ogen niet kunnen doen.
 ### Screenshot(s)
-
 <img src="images/readme/homepagina.png" width="375px" alt="home-page>
+
+De homepage was af, maar miste een heleboel elementen, zoals een hamburger menu en micro interactie
+met javascript.
 
 <img src="images/readme/kleding-pagina.png" width="375px" alt="kleding-page>
 
+De kleding pagina was af, maar miste net als de homepage belangrijke elementen. Daarnaast was de styling
+niet op de natuurlijke manier. De styling bestond uit een heleboel margins, paddings, left/right/bottom, 
+waardoor de website er niet zo goed uitzag op mobiele/tablet versie. 
 
 </details>
 
 
+## Voortgang 4 (herkansingsperiode)
+
+<details>
+<summary>surface website maken</summary>
+
+### Stand van zaken
+In de herkansingsperiode heb ik een besluit kunnen maken over wat ik nou echt fijner vind. Daaruit
+is gebleken dat suface toch wat interessanter was. Alle ontvangen feedback, zoals de divjes veranderen
+naar section als ze in main staan, left/right/bottom etc toegepast.
+Ik heb alle styling eruit gesloopt en ben helemaal opnieuw begonnen met stylen. De website is nu gemaakt 
+voor alleen mobiel inclusief een dark-mode funtie en een hamburger menu.
+
+### Herkansingsperiode: 
+Ik ben niet echt tegen dingen aangelopen tijdens het veranderen van de styling van m'n website. Wel had
+ik in het begin de gedachte van hoe ga ik dit moeten doen, omdat ik heel veel regels had in m'n styling
+en dus onoverzichtelijk was om het een en ander aan te passen. Vandaar dat ik had besloten om alles eruit
+te slopen en helemaal opnieuw te beginnen en dit was erg goed gegaan.
+
+<img src="images/readme/pagina-bijna-af.png" width="375px" alt="pagina-bijna-af>
+
+</details>
 
 
 
@@ -164,8 +210,8 @@ Tijdens de eindsprint ben ik ziek geweest, waardoor ik niet veel heb kunnen werk
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. w3schools in gebruikt bij het maken van een hamburger menu
+2. codepen is gebruikt bij het maken van een dark-mode funtie
+3. flexbox is gebruikt bij het positioneren van verschillende elementen op de website
 
 </details>
