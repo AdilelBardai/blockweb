@@ -1,232 +1,166 @@
 <!doctype html>
 <html lang="nl">
 	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bijenkorf</title>
-	<link href="styles/kleding.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="jouw naam">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bijenkorf</title>
+		<link href="styles/kleding.css" rel="stylesheet">
+		<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
 
-<body>
-	<header>
-		<section>
-			<a href="#">Winkels & Openingstijden</a>
-			<a href="#">Nu besteld,woensdag 15 september gratis in huis</a>
-			<a href="#">Klantenservice</a>
-		</section>
-		
-		<nav>
-			<ul>
-				<li><a href="#">Dames</a></li>
-				<li><a href="index.html">Heren</a></li>
-				<li><a href="#">Kinderen</a></li>
-				<li><a href="#">Wonen & Vrije tijd</a></li>
-				<li><a href="#">Outlet</a></li>
-				<li><img src="images/bijenkorf-logo.png" class="logo"></li>
-				<li>
-					<form>
+	<body>
+		<header>
+			<section class="top-header">
+				<a href="#">Nu besteld, morgen 6 oktober gratis in huis</a>
+			</section>
+			
+			<nav>
+				<section>
+					<img src="images/bijenkorf-logo.png" alt="logo" class="bk-logo">
+					<img src="images/nav-icons.png" alt="nav-icons" class="nav-icons">
+				</section>
+
+				<section>
+					<a href="#" id="hamburger-menu-btn"><img src="images/menu.png" alt="menu"></a>
+					<form class="search-bar">
 						<input type="text" placeholder="Waar ben je naar opzoek?" name="zoeken" class="search-bar">
-						<button type="submit"><img src="images/search-logo.png"></i></button>
+						<a href="#"><img src="images/search-logo.png" alt="search-logo"></i></a>
 					</form>
-				</li>
-				<li><img src="images/nav-icons.png" class="nav-icons"></li>
-			</ul>
-		</nav>
-
-		<nav>
-			<ul>
-				<li><a href="#">Nieuwe collectie</a></li>
-				<li><a href="#">Kleding</a></li>
-				<li><a href="#">Schoenen</a></li>
-				<li><a href="#">Sieraden & Horloges</a></li>
-				<li><a href="#">Accesoires</a></li>
-				<li><a href="#">Verzorging</a></li>
-				<li><a href="#">Designer</a></li>
-				<li><a href="#">Inspiratie</a></li>
-				<li><a href="#">Cadeaus</a></li>
-				<li><a href="#"><u>Outlet</u></a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<main>
-		<!-- <div>
-			<img src="images/top-banner.png" id="top-banner">
-			<span>
-				<p>een nieuwe balans</p>
-				<h1>De mooiste herfstmode</h1>
-				<p>Verwerk het onbekende in je vertrouwde stijl en sta in een nieuwe balans met jezelf, elkaar en de natuur</p>
-				<button class="btn-check-selection">Bekijk de selectie</button>
-			</span>
-		</div>
-
-		<section>
-			<p>Al onze winkels zijn open, ook op afspraak, voor een bijzondere en veilige winkelervaring.</p> 
-			<a href="#">Maak een afspraak</a>
-		</section> -->
-
-		<!-- <div>
-			<h2>Trends</h2>
-			<a href="#">Bekijk alle trends</a>
-		</div> -->
-
-		<section>
-			<article>
+					<button id="dark-mode-btn">DARK MODE</button>
+				</section>
+				
+				<ul id="hamburger-menu">
+					<li id="closeMenu">X</li>
+					<li><a href="#">Nieuwe collectie</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="kleding.html">Kleding</a></li>
+					<li><a href="#">Schoenen</a></li>
+					<li><a href="#">Sieraden & horloges</a></li>
+					<li><a href="#">Accessoires</a></li>
+					<li><a href="#">Verzorging</a></li>
+					<li><a href="#">Designer</a></li>
+					<li><a href="#">Inspiratie</a></li>
+					<li><a href="#">Cadeaus</a></li>
+					<li><a href="#">Outlet</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<section>
 				<h2>Herenkleding</h2>
-				<p>
-					Voor stijlvolle herenkleding ben je bij de Bijenkorf aan het juiste adres.
-					 Je vindt er een zeer uitgebreid aanbod aan herenmode voor elke gelegenheid: 
-					 van formele overhemden en kostuums tot casual polo's en chino's. 
-					 Ook sportieve heren kunnen hun hart ophalen aan de uitgebreide sportcollectie 
-					 vol trendy items van diverse topmerken.
-				</p>
-			</article>
+			</section>
 
-			<div>
-				<img src="images/men-clothes/jassen.png">
-				<img src="images/men-clothes/truien-hoodies.png">
-				<img src="images/men-clothes/vesten.png">
-				<img src="images/men-clothes/polo's-tshirts.png">
-				<img src="images/men-clothes/jeans.png">
-				<img src="images/men-clothes/broeken.png">
-				<img src="images/men-clothes/overhemden.png">
-				<img src="images/men-clothes/pakken.png">
-				<img src="images/men-clothes/sportkleding.png">
-			</div>
-		</section>
+			<section>
+				<div>
+					<img src="images/men-clothes/jassen.png" alt="jassen">
+					<img src="images/men-clothes/truien-hoodies.png" alt="truien-hoodies">
+					<img src="images/men-clothes/vesten.png" alt="vesten">
+					<img src="images/men-clothes/polo's-tshirts.png" alt="polo's-tshirts">
+					<img src="images/men-clothes/jeans.png" alt="jeans">
+					<img src="images/men-clothes/broeken.png" alt="broeken">
+					<img src="images/men-clothes/overhemden.png" alt="overhemden">
+					<img src="images/men-clothes/pakken.png" alt="pakken">
+				</div>
+			</section>
 
-		<section>
-			<a href="#"><h2>Bekijk alle herenkleding -></h2></a>
-		</section>
+			<section>
+				<a href="#"><h2>Bekijk alle herenkleding ></h2></a>
+			</section>
 
-		<section>
-			<article>
+			<section>
 				<h2>Bestsellers</h2>
 				<a href="#">Bekijk het aanbod</a>
-			</article>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/jacket.png"></a>
-				<p>Moncler</p>
-				<p>Clonophis jack met steekzakken en backprint</p>
-				<b>1190,-</b>
-			</div>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/short.png"></a>
-				<p>Versace</p>
-				<p>Zwemshorts met logoband en steekzakken</p>
-				<b>210,-</b>
-			</div>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/shoes.png"></a>
-				<p>Off-White</p>
-				<p>Vulcanized sneaker van suède</p>
-				<b>320,-</b>
-			</div>
-		</section>
+			</section>
 
-		<section>
-			<article>
-				<h2>Populaire merken</h2>
-			</article>
-		</section>
+			<section>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/jacket.png" alt="jacket"></a>
+					<p>Moncler</p>
+					<p>Clonophis jack met steekzakken en backprint</p>
+					<b>1190,-</b>
+				</div>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/short.png" alt="short"></a>
+					<p>Versace</p>
+					<p>Zwemshorts met logoband en steekzakken</p>
+					<b>210,-</b>
+				</div>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/shoes.png" alt="shoes"></a>
+					<p>Off-White</p>
+					<p>Vulcanized sneaker van suède</p>
+					<b>320,-</b>
+				</div>
+			</section>
 
-		<div>
-			<a href="#">
-				<img src="images/populair/balenciaga.png">
-			</a>
-						
-			<a href="#">
-				<img src="images/populair/hugoboss.png">
-				<!-- <h3>HUGO BOSS</h3> -->
-			</a>
-						
-			<a href="#">
-				<img src="images/populair/valentino.png">
-				<!-- <h3>VALENTINO</h3> -->
-			</a>
-						
-			<a href="#">
-				<img src="images/populair/tedbaker.png">
-			</a>
-		</div>
+			<section>
+				<article>
+					<h2>Populaire merken</h2>
+				</article>
+			</section>
 
-		<section>
-			<article>
-				<h2>Speciaal voor jou geselecteerd</h2>
-				<p>Gebaseerd op je laatst bekeken product</p>
-			</article>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/jacket.png"></a>
-				<p>Moncler</p>
-				<p>Clonophis jack met steekzakken en backprint</p>
-				<b>1190,-</b>
-			</div>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/short.png"></a>
-				<p>Versace</p>
-				<p>Zwemshorts met logoband en steekzakken</p>
-				<b>210,-</b>
-			</div>
-			<div>
-				<a href="#"><img src="images/special4you-imgs/shoes.png"></a>
-				<p>Off-White</p>
-				<p>Vulcanized sneaker van suède</p>
-				<b>320,-</b>
-			</div>
-		</section>
+			<section>
+				<a href="#">
+					<img src="images/populair/balenciaga.png" alt="balenciaga">
+				</a>
+							
+				<a href="#">
+					<img src="images/populair/hugoboss.png" alt="hugoboss">
+				</a>
+							
+				<a href="#">
+					<img src="images/populair/valentino.png" alt="valentino">
+				</a>
+							
+				<a href="#">
+					<img src="images/populair/tedbaker.png" alt="tedbaker">
+				</a>
+			</section>
 
-		<section>
-			<h4>Herenmode merken</h4>
-			<button>Bekijk de selectie</button>
-		</section>
-		
-		<section>
-			<ul>
-				<li><a href="#">adidas</a></li>
-				<li><a href="#">Armani Exchange</a></li>
-				<li><a href="#">Balenciaga</a></li>
-				<li><a href="#">Calvin Klein</a></li>
-				<li><a href="#">CHASIN'</a></li>
-				<li><a href="#">Daily Paper</a></li>
-				<li><a href="#">Diesel</a></li>
-			</ul>
+			<section>
+				<article>
+					<h2>Speciaal voor jou geselecteerd</h2>
+					<p>Gebaseerd op je laatst bekeken product</p>
+				</article>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/sandals.png" alt="sandals"></a>
+					<p>Dolce & Gabanna</p>
+					<p>Flip flops</p>
+					<b>210,-</b>
+				</div>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/short.png" alt="short"></a>
+					<p>Versace</p>
+					<p>Zwemshorts met logoband en steekzakken</p>
+					<b>210,-</b>
+				</div>
+				<div>
+					<a href="#"><img src="images/special4you-imgs/shoes.png" alt="shoes"></a>
+					<p>Off-White</p>
+					<p>Vulcanized sneaker van suède</p>
+					<b>320,-</b>
+				</div>
+			</section>
+		</main>
 
-			<ul>
-				<li><a href="#">Dolce & Gabbana</a></li>
-				<li><a href="#">Dsquared2</a></li>
-				<li><a href="#">Dune London</a></li>
-				<li><a href="#">Emporio Armani</a></li>
-				<li><a href="#">Fossil</a></li>
-				<li><a href="#">Gucci</a></li>
-				<li><a href="#">HUGO BOSS</a></li>
-			</ul>
+		<footer>
+			<section>
+				<ul class="footer">
+					<li><a href="#">Gratis bezorging boven 100 euro én altijd voor members</a></li>
+					<li><a href="#">Nu besteld, vrijdag 1 oktober in huis</a></li>
+					<li><a href="#">Gratis retourneren, bedenktijd van 100 dagen</a></li>
+				</ul>
+			</section>
 
-			<ul>
-				<li><a href="#">Levi's</a></li>
-				<li><a href="#">MANGO</a></li>
-				<li><a href="#">Nike</a></li>
-				<li><a href="#">Oakley</a></li>
-				<li><a href="#">Prada</a></li>
-				<li><a href="#">Profuomo</a></li>
-				<li><a href="#">Ralph Lauren</a></li>
-			</ul>
-
-			<ul>
-				<li><a href="#">Ray-Ban</a></li>
-				<li><a href="#">Reiss</a></li>
-				<li><a href="#">Sandro</a></li>
-				<li><a href="#">Scotch & Soda</a></li>
-				<li><a href="#">Ted Baker</a></li>
-				<li><a href="#">Tommy Hilfiger</a></li>
-				<li><a href="#">Van Gils</a></li>
-			</ul>
-		</section>
-	</main>
-	<script src="scripts/script.js"></script>
-</body>
-	
+			<section>
+				<h3>ELKE DAG BEREIKBAAR TUSSEN 08.00 - 24.00 UUR.</h3>
+				<img src="images/footer-links.png" alt="footer-links">
+			</section>
+		</footer>
+		<script src="scripts/script.js"></script>
+	</body>
 </html>
